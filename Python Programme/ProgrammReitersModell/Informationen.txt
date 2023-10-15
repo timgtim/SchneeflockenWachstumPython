@@ -1,0 +1,15 @@
+Die Simulation und Visualisierung lässt sich am einfachsten in der Datei "skript.py" durchführen.
+Das Programm ist so aufgebaut, dass es sich im Terminal ausführen lässt. Um eine bestimmte Funktion auszuwählen 
+kann die Zahl in der Klammer ins Terminal eingegeben werden. Es können verschiedene Werte angepasst werden. 
+Die Berechnungszeit der Simulation hängt stark von den Werten ab. 
+Je höher die gewählte Zeilenanzahl, desto länger benötigt die Simulation, um die Schneeflocke zu berechnen. 
+Die Werte "Beta" und "Gamma" haben auch einen grossen Effekt auf die Berechnungszeit. Je kleiner "Beta" und "Gamma"
+sind, desto länger ist die Rechenzeit.
+
+Wenn man nach relativ kurzer Wartezeit Ergebnisse sehen will, empfiehlt sich eine Zeilenanzahl zwischen 100 und 300
+und der Gamma-Wert sollte nicht kleiner als 0.001 sein. 
+
+Bei der Visualisierung mit Matplotlib werden bei Schneeflocken mit vielen Zellen die Sechsecke grösser dargestellt, als sie sein sollten.
+Wird die Schneeflocke vergrössert, haben die Sechsecke die richtige Grösse. Wenn die Visualisierung als Bild abgespeichert wird, haben die 
+Sechsecke auch nicht die richtige Grösse. Auf die Gesamtform der Schneeflocke hat das wenig Einfluss, nur der Rand hat eine etwas andere Form.
+
